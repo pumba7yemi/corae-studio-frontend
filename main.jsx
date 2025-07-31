@@ -1,4 +1,4 @@
-
+import AgentChat from "./src/components/AgentChat";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
