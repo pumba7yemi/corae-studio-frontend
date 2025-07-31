@@ -1,4 +1,4 @@
-
+import AgentChat from "./src/components/AgentChat";
 import React from 'react';
 
 function App() {
@@ -15,6 +15,8 @@ function App() {
       <main className="flex-1 p-6">
         <h1 className="text-2xl font-semibold">Welcome to corAe Studio</h1>
         <p>This is the base UI. Your logic will go here.</p>
+
+        <AgentChat />
       </main>
     </div>
   );
